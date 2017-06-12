@@ -43,13 +43,13 @@ app.get('/', function(req, res) {
 });
 
 
-if (cluster.isMaster) {
-    console.log("master processor")
-    for (var i = 0; i < numCPUs; i++) {
-        cluster.fork();
-    }
+// if (cluster.isMaster) {
+    // console.log("master processor")
+    // // for (var i = 0; i < numCPUs; i++) {
+        // // cluster.fork();
+    // // }
     
-} else {
-    console.log("worker process");
-    server.listen(config.NODE_SERVER_PORT.port);
-}
+// } else {
+    // console.log("worker process");
+server.listen(config.NODE_SERVER_PORT.port);
+// }
