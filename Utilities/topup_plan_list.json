@@ -1,0 +1,73 @@
+[{
+	"PLAN_NAME": "FUP TOPUP 100GB",
+	"PLAN_ID": "3653950753",
+	"PRODUCT_ID": "3653947937",
+	"PRIORITY": "2900",
+	"PLAN_CATEGORY": "RETAIL PRODUCTS",
+	"GL_ID": "2020500",
+	"GL_ID_DESCR": "FUP Subscription",
+	"Price excluding tax": "2500",
+	"Service Tax amount": "375.00",
+	"Total Amount": "2875.00",
+	"FREE Units in GB": "100"
+},{
+	"PLAN_NAME": "FUP TOPUP 100GB SME",
+	"PLAN_ID": "4876823203",
+	"PRODUCT_ID": "4876823587",
+	"PRIORITY": "1900",
+	"PLAN_CATEGORY": "SME PRODUCTS",
+	"GL_ID": "2020500",
+	"GL_ID_DESCR": "FUP Subscription",
+	"Price excluding tax": "2500",
+	"Service Tax amount": "375.00",
+	"Total Amount": "2875.00",
+	"FREE Units in GB": "10"
+},{
+	"PLAN_NAME": "FUP TOPUP 100GB",
+	"PLAN_ID": "3653950753",
+	"PRODUCT_ID": "3653947937",
+	"PRIORITY": "2900",
+	"PLAN_CATEGORY": "RETAIL PRODUCTS",
+	"GL_ID": "2020500",
+	"GL_ID_DESCR": "FUP Subscription",
+	"Price excluding tax": "2500",
+	"Service Tax amount": "375.00",
+	"Total Amount": "2875.00",
+	"FREE Units in GB": "100"
+},{
+	"PLAN_NAME": "FUP TOPUP 100GB",
+	"PLAN_ID": "3653950753",
+	"PRODUCT_ID": "3653947937",
+	"PRIORITY": "2900",
+	"PLAN_CATEGORY": "RETAIL PRODUCTS",
+	"GL_ID": "2020500",
+	"GL_ID_DESCR": "FUP Subscription",
+	"Price excluding tax": "2500",
+	"Service Tax amount": "375.00",
+	"Total Amount": "2875.00",
+	"FREE Units in GB": "100"
+},{
+	"PLAN_NAME": "FUP TOPUP 100GB",
+	"PLAN_ID": "3653950753",
+	"PRODUCT_ID": "3653947937",
+	"PRIORITY": "2900",
+	"PLAN_CATEGORY": "RETAIL PRODUCTS",
+	"GL_ID": "2020500",
+	"GL_ID_DESCR": "FUP Subscription",
+	"Price excluding tax": "2500",
+	"Service Tax amount": "375.00",
+	"Total Amount": "2875.00",
+	"FREE Units in GB": "100"
+},{
+	"PLAN_NAME": "FUP TOPUP 100GB",
+	"PLAN_ID": "3653950753",
+	"PRODUCT_ID": "3653947937",
+	"PRIORITY": "2900",
+	"PLAN_CATEGORY": "RETAIL PRODUCTS",
+	"GL_ID": "2020500",
+	"GL_ID_DESCR": "FUP Subscription",
+	"Price excluding tax": "2500",
+	"Service Tax amount": "375.00",
+	"Total Amount": "2875.00",
+	"FREE Units in GB": "100"
+}]

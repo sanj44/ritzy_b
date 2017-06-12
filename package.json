@@ -1,0 +1,24 @@
+{
+  "name": "Hathway",
+  "version": "1.0.0",
+  "description": "ecom",
+  "main": "server.js",
+  "author": "Pankaj",
+  "dependencies": {
+    "async": "^1.5.2",
+    "aws-sdk": "^2.16.0",
+    "body-parser": "^1.17.2",
+    "cron": "^1.2.1",
+    "devDependencies": {
+      "loadtest": "*"
+    },
+    "express": "^4.14.0",
+    "md5": "^2.2.1",
+    "mongoose": "^4.7.0",
+    "multer": "^1.3.0",
+    "mustache": "^2.3.0",
+    "nodemailer": "^2.6.4",
+    "request": "^2.79.0",
+    "xml2js": "^0.4.17"
+  }
+}

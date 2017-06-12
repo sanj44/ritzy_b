@@ -1,0 +1,230 @@
+{
+	"id": "27874d13-f25f-b869-9daa-09cfab6772d4",
+	"name": "ecom",
+	"description": "",
+	"order": [
+		"bde25a58-cf44-bf96-e369-2246dda4e5f2",
+		"57c21238-f7bd-c300-17fb-215e35737440"
+	],
+	"folders": [],
+	"timestamp": 1496233811956,
+	"owner": "889962",
+	"public": false,
+	"requests": [
+		{
+			"id": "57c21238-f7bd-c300-17fb-215e35737440",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/product/productList",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "27874d13-f25f-b869-9daa-09cfab6772d4",
+			"data": [
+				{
+					"key": "token",
+					"value": "121212",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost:3000/product/productList",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1496583466835,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "bde25a58-cf44-bf96-e369-2246dda4e5f2",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/product/addNewProduct",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "productId",
+					"value": "1113451",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "categoryId",
+					"value": "12",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "productName",
+					"value": "casual shirts",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "clothingType",
+					"value": "summer wair",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "productDesc",
+					"value": "the quick brown fox jumps voer the lazy dog",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "colorAvailability",
+					"value": "black,blue",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sizeAvailability",
+					"value": "sl,xl",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "dateAvailabilityFrom",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "productDetail",
+					"value": "the quick brown fox jups voer the lazy doh",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "kerywords",
+					"value": "the ,key",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "image1",
+					"value": "WhatsApp Image 2017-05-31 at 10.52.02 AM.jpeg",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "image2",
+					"value": "brain-MMe8HDxshfTf23Z5fGKJCE4rV4jiY0VG_home.png",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "image3",
+					"value": "eefc09241d8e8215db3f6809994bf3b6 (3)",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "image4",
+					"value": "eefc09241d8e8215db3f6809994bf3b6",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "image5",
+					"value": "eefc09241d8e8215db3f6809994bf3b6",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "image6",
+					"value": "eefc09241d8e8215db3f6809994bf3b6 (3)",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "stock_available",
+					"value": "121",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "stock_ordered",
+					"value": "121",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "inr_stock_cost",
+					"value": "12121",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "inr_mrp",
+					"value": "345345",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "inr_sale_price",
+					"value": "345345",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "inr_start_date",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "inr_end_Date",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1496583473294,
+			"name": "get customer details",
+			"description": "",
+			"collectionId": "27874d13-f25f-b869-9daa-09cfab6772d4",
+			"responses": []
+		}
+	]
+}
