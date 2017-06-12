@@ -6,7 +6,7 @@ let serverURLs = {
         "HATHWAY_PUSH__SOAP_SERVICE": "http://11.11.1.11:8080/PushNotifyWS_test",
         "HATHWAY_REST_SERVICE": "http://11.11.11.11",
         "NODE_SERVER": "http://abc.abcd.net",
-        "NODE_SERVER_PORT": "3000",
+        "NODE_SERVER_PORT": "process.env.PORT || 5000",
         "MONGO_DB": "mongodb://sanj44:sanj1234@ds163681.mlab.com:63681/ecom",
         "CITRUS_ACCESS": "dsdfsdfsdfsdfsdfsf",
         "CITRUS_URL": "https://asdfasdfasfd.citruspay.com",
