@@ -34,7 +34,7 @@ router.post('/createNewUser', cpUpload, (req, res) => {
 router.post('/productList', (req, res) => { //res.send('pk testing'); return;
     productService.productList(req, (data) => {
 		res.setHeader('Access-Control-Allow-Origin','*');
-			if(data.result.length){
+			if(data!=undefined || data!=null){
 				for(var i=0;i<data.result.length;i++){
 					if(data.result[i].image1!='')
 					{
