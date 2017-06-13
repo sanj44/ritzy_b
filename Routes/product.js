@@ -34,38 +34,40 @@ router.post('/createNewUser', cpUpload, (req, res) => {
 router.post('/productList', (req, res) => { //res.send('pk testing'); return;
     productService.productList(req, (data) => {
 		res.setHeader('Access-Control-Allow-Origin','*');
-			for(var i=0;i<data.result.length;i++){
-				if(data.result[i].image1!='')
-				{
-					var NewString=fs.readFileSync(path.resolve('./uploads/' + data.result[i].image1.toString()));
-					data.result[i].image1=NewString.toString('base64');
+			if(data.result.length){
+				for(var i=0;i<data.result.length;i++){
+					if(data.result[i].image1!='')
+					{
+						var NewString=fs.readFileSync(path.resolve('./uploads/' + data.result[i].image1.toString()));
+						data.result[i].image1=NewString.toString('base64');
+					}
+					if(data.result[i].image2!='')
+					{
+						var NewString=fs.readFileSync(path.resolve('./uploads/' + data.result[i].image2.toString()));
+						data.result[i].image2=NewString.toString('base64');
+					}
+					if(data.result[i].image3!='')
+					{
+						var NewString=fs.readFileSync(path.resolve('./uploads/' + data.result[i].image3.toString()));
+						data.result[i].image3=NewString.toString('base64');
+					}
+					if(data.result[i].image4!='')
+					{
+						var NewString=fs.readFileSync(path.resolve('./uploads/' + data.result[i].image4.toString()));
+						data.result[i].image4=NewString.toString('base64');
+					}
+					if(data.result[i].image5!='')
+					{
+						var NewString=fs.readFileSync(path.resolve('./uploads/' + data.result[i].image5.toString()));
+						data.result[i].image5=NewString.toString('base64');
+					}
+					if(data.result[i].image6!='')
+					{
+						var NewString=fs.readFileSync(path.resolve('./uploads/' + data.result[i].image6.toString()));
+						data.result[i].image6=NewString.toString('base64');
+					}
 				}
-				if(data.result[i].image2!='')
-				{
-					var NewString=fs.readFileSync(path.resolve('./uploads/' + data.result[i].image2.toString()));
-					data.result[i].image2=NewString.toString('base64');
-				}
-				if(data.result[i].image3!='')
-				{
-					var NewString=fs.readFileSync(path.resolve('./uploads/' + data.result[i].image3.toString()));
-					data.result[i].image3=NewString.toString('base64');
-				}
-				if(data.result[i].image4!='')
-				{
-					var NewString=fs.readFileSync(path.resolve('./uploads/' + data.result[i].image4.toString()));
-					data.result[i].image4=NewString.toString('base64');
-				}
-				if(data.result[i].image5!='')
-				{
-					var NewString=fs.readFileSync(path.resolve('./uploads/' + data.result[i].image5.toString()));
-					data.result[i].image5=NewString.toString('base64');
-				}
-				if(data.result[i].image6!='')
-				{
-					var NewString=fs.readFileSync(path.resolve('./uploads/' + data.result[i].image6.toString()));
-					data.result[i].image6=NewString.toString('base64');
-				}
-		}
+			}
         res.send(data);
 	});
 });
